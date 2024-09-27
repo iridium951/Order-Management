@@ -1,0 +1,37 @@
+{
+  "name": "webanwendung",
+  "version": "1.0.0",
+  "description": "Praktikumsaufgabe Webtech",
+  "main": "index.js",
+  "type": "module",
+  "author": "Anastasia Shulman",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webtechnologien-WiSe-2022/webtechgrundlagen-iridium951.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Webtechnologien-WiSe-2022/webtechgrundlagen-iridium951/issues"
+  },
+  "homepage": "https://github.com/Webtechnologien-WiSe-2022/webtechgrundlagen-iridium951#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "eslint": "^8.26.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.10",
+    "os": "^0.1.2",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.23.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}

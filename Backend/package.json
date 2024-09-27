@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "and": "^0.0.3",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jsdoc-swagger": "^1.8.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3",
+    "path": "^0.12.7",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.6.0",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-plugin-react": "^7.31.11"
+  }
+}
